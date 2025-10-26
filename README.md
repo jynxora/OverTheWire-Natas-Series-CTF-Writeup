@@ -1,28 +1,102 @@
-# OverTheWire Natas Progress  
+# Natas OverTheWire - Complete Walkthrough 
 
-This repository documents my progress through the **OverTheWire Natas series**, a set of web exploitation challenges focused on server-side security concepts.  
+## About
 
-## About Natas  
-- Natas teaches basics of server-side web security.  
-- Each level reveals the password for the next (stored in `/etc/natas_webpass/`).  
-- No SSH access — all interaction happens via the challenge websites.  
+This repository contains a complete walkthrough of 33 levels of the Natas OverTheWire wargame, one of the most popular web security challenges for learning server-side security concepts. Each level presents a unique vulnerability that must be exploited to retrieve the password for the next level. 
 
-## Progress  
-- Completed Levels: **0 → 11**  
-- Current Level: **12 / 34**  
-- Status: *Paused for now* (may return in chunks later)  
+## What is Natas?
 
-## Learnings So Far  
-- Source code inspection  
-- HTTP request/response manipulation  
-- Cookie/session handling  
-- Basic command injection patterns  
+Natas is a wargame that teaches the basics of server-side web security. Unlike client-side challenges, Natas focuses on vulnerabilities that exist in server-side code and configurations.
+Key Features:
 
-## Notes  
-This repo is not a solutions dump. It only logs my personal journey and reflections during the **#700DaysOfSkill** challenge.  
+- No SSH required—all challenges are web-based
+- Progressive difficulty from basic to advanced
+- Real-world vulnerability scenarios
+- Safe, legal hacking environment 
 
-## Next Steps  
-- Shift focus toward **DFIR and Quantum Computing research work** (ongoing internship).  
-- May revisit Natas later, but no strong promises — sustainable progress > forced grind.  
+### Starting Point:
+
+URL: http://natas0.natas.labs.overthewire.org
+Username: natas0
+Password: natas0
+
+---
+
+## Skills Covered
+This walkthrough demonstrates exploitation techniques for:
+
+### Injection Vulnerabilities
+
+- SQL Injection (basic, blind, time-based)
+- Command Injection
+- Code Injection
+
+### Authentication & Session Management
+
+- Cookie Manipulation
+- Session Hijacking
+- Session Fixation
+- Authentication Bypass
+
+### Cryptography
+
+- XOR Encryption Breaking
+- CBC Mode Block Cipher Manipulation
+- Encoding/Decoding Techniques
+
+### File Handling
+
+- File Upload Vulnerabilities
+- Directory Traversal
+- Local File Inclusion (LFI)
+
+### Web Exploitation
+
+- HTTP Header Manipulation
+- robots.txt Reconnaissance
+- Source Code Analysis
+- Filter Bypassing
+
+### Automation & Scripting
+
+- Python Request Automation
+- Brute Force Scripts
+- Time-Based Attack Scripts
+
+---
+
+## Tools Used
+
+### Essential Tools
+
+Burp Suite - Request interception and modification.
+Browser DevTools - Source inspection, network analysis.
+Python 3.x - Automation scripts.
+CyberChef - Encoding/decoding operations.
+PHP/Perl Compiler - Create injection queries.
+
+## How to Use This Walkthrough
+
+### For Learners:
+
+Try First: Attempt each level before reading the solution
+Understand Why: Don't just copy-paste—understand the vulnerability
+Experiment: Modify the exploits, try different approaches
+Practice: Apply concepts to other CTF platforms
+
+### For Reference:
+
+Check the PDF walkthrough for detailed explanations
+Review Python scripts for automation techniques
+Use notes for quick vulnerability refreshers
+Reference cheatsheets for common patterns 
+
+---
+
+## Acknowledgments
+
+OverTheWire Team - For creating and maintaining these excellent wargames
+InfoSec Community - For sharing knowledge and techniques
+You - For taking the time to learn and improve your security skills
 
 ---

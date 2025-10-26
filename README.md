@@ -16,9 +16,9 @@ Key Features:
 
 ### Starting Point:
 
-URL: http://natas0.natas.labs.overthewire.org
-Username: natas0
-Password: natas0
+- URL: http://natas0.natas.labs.overthewire.org
+- Username: natas0
+- Password: natas0
 
 ---
 
@@ -69,34 +69,34 @@ This walkthrough demonstrates exploitation techniques for:
 
 ### Essential Tools
 
-Burp Suite - Request interception and modification.
-Browser DevTools - Source inspection, network analysis.
-Python 3.x - Automation scripts.
-CyberChef - Encoding/decoding operations.
-PHP/Perl Compiler - Create injection queries.
+- Burp Suite - Request interception and modification.
+- Browser DevTools - Source inspection, network analysis.
+- Python 3.x - Automation scripts.
+- CyberChef - Encoding/decoding operations.
+- PHP/Perl Compiler - Create injection queries.
 
 ## How to Use This Walkthrough
 
 ### For Learners:
 
-Try First: Attempt each level before reading the solution
-Understand Why: Don't just copy-paste—understand the vulnerability
-Experiment: Modify the exploits, try different approaches
-Practice: Apply concepts to other CTF platforms
+- Try First: Attempt each level before reading the solution
+- Understand Why: Don't just copy-paste—understand the vulnerability
+- Experiment: Modify the exploits, try different approaches
+- Practice: Apply concepts to other CTF platforms
 
 ### For Reference:
 
-Check the PDF walkthrough for detailed explanations
-Review Python scripts for automation techniques
-Use notes for quick vulnerability refreshers
-Reference cheatsheets for common patterns 
+- Check the PDF walkthrough for detailed explanations
+- Review Python scripts for automation techniques
+- Use notes for quick vulnerability refreshers
+- Reference cheatsheets for common patterns 
 
 ---
 
 ## Acknowledgments
 
-OverTheWire Team - For creating and maintaining these excellent wargames
-InfoSec Community - For sharing knowledge and techniques
-You - For taking the time to learn and improve your security skills
+- OverTheWire Team - For creating and maintaining these excellent wargames
+- InfoSec Community - For sharing knowledge and techniques
+- You - For taking the time to learn and improve your security skills
 
 ---
